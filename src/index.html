@@ -1,14 +1,51 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>birthday</title>
-    <link rel="stylesheet" href="styles/main.scss">
+    <title>Festa de Aniversário</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.scss">
 </head>
+
 <body>
-    <h1>olá</h1>
-    <img src="./images/logo.png" alt="">
+    <header class="hero">
+        <div class="hero__overlay"></div>
+        <div class="container">
+            <h1 class="hero__title">Contagem regressiva para o aniversário</h1>
+            <p class="hero__text">
+                A festa começa em:
+            </p>
+
+            <div class="timer">
+                <span id="contador"></span>
+            </div>
+
+            <div class="event-info">
+                <ul class="event-info__list">
+                    <li><b>📍 Local:</b> Espaço Celebration - São Paulo</li>
+                    <li><b>📅 Data:</b> 10/12/2026</li>
+                    <li><b>⏰ Horário:</b> 20h</li>
+                </ul>
+
+                <a href="#" class="button">Confirmar Presença</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2 class="about__title">Vai ser inesquecível!</h2>
+            <p class="about__text">
+                Prepare-se para uma noite cheia de música, diversão e muita comemoração!
+                Contamos com você para tornar esse momento ainda mais especial.
+            </p>
+            <img src="./images/logo.png" alt="Decoração da festa" class="about__image">
+        </div>
+    </section>
     <script src="scripts/main.js"></script>
 </body>
+
 </html>
